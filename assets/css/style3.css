@@ -1,0 +1,116 @@
+.container {
+    width: 50vw;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+
+section {
+    display: inline-block;
+    margin: 2%;
+} 
+
+/*Bandera España*/
+.seccion1_div__red {
+    height: 150px;
+    width: 250px;
+    background-color: red;
+    position: relative;
+    border: 0.5px solid grey;
+}
+
+.seccion1_div__yellow {
+    height: 40%;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 30%;
+} 
+
+/*Bandera Dinamarca*/
+
+.section2_div__red{
+    height: 150px;
+    width: 250px;
+    background-color: red;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.section2_div__white-horizontal {
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    /*HAce coincidir la mitad del elemento hijo, con el centro del elemento padre*/
+    transform: translate(0, -50%);
+}
+
+.section2_div__white-vertical {
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+}
+
+/* Emiratos Árabes*/
+
+.seccion3_div {
+    height: 150px;
+    width: 250px;
+    border: 0.5px solid grey;
+    display: inline-block;
+    position: relative;
+}
+
+.seccion3_div__red-vertical {
+    height: 100%;
+    width: 50px;
+    background-color: red;
+    display: inline-block;
+}
+.seccion3_div-horizontal {
+    height: 100%;
+    width: 200px;
+    float: right;
+}
+
+.seccion3_div__green-horizontal {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+.seccion3_div__white-horizontal {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.seccion3_div__black-horizontal {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+/* Bandera Japón*/
+
+.seccion4_div__white {
+    height: 150px;
+    width: 250px;
+    background-color: #fff;
+    border: 0.5px solid grey;
+    position: relative;
+}
+
+.seccion4_div__red {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
