@@ -1,0 +1,17 @@
+.section_relative {
+    margin: auto;
+    height: 30%;
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+
+.section__div_absolute-1{
+    position: absolute;
+
+}
+.section__div_absolute-2 {
+    /* display: inline-block; */
+    position: absolute;
+    top: 5%;
+}
