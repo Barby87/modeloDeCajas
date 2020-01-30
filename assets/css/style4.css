@@ -1,0 +1,18 @@
+.main {
+    width: 50%;
+    height: 60%h;
+    padding: 5%;
+    margin: auto; 
+    background-color: rgb(193, 235, 168);
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.main__paragraph {
+    position: relative;
+    left: 5%;
+    margin-right: 0;
+}
+
+
