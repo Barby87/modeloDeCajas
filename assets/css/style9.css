@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.header__h1 {
+    margin: 0 1%;
+}
+
+.section1 {
+    width: 30%;
+    background-color: rgb(216, 216, 216);
+    margin-top: 0;
+    margin-right: 2%;
+    padding-left: 2%;
+    position: relative;
+    float: left;
+}
+
+.section2 {
+    margin-right: 2%;
+}
+
+.footer {
+    width: 100vw;;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    clear: left;
+}
+
+.footer__h5 {
+    margin-top: 0;
+    padding-bottom: 1%;
+}
+
