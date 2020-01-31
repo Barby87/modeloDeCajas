@@ -20,18 +20,29 @@ body {
 .seccion2 {
     position: relative;
     top: 42px;
+    box-sizing: content-box;
 }
 
 .box {
-    border: 2px solid #808080;
+    border: 1px solid #808080;
     padding: 5px;
-    width: 23vw;
+    width: 25vw;
     height: 100px;
     overflow: scroll;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: 100px;
-    box-sizing: border-box;
+}
 
+.box2 {
+    left: 25%;
+}
+
+.box3 {
+    left: 50%;
+}
+
+.box4 {
+    right: 0;
 }
 
